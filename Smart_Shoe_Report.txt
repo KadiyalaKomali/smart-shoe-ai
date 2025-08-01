@@ -1,0 +1,41 @@
+Smart Shoe for Visually Impaired – Report
+
+Abstract:
+This project presents the design and development of a wearable smart shoe system aimed at assisting visually impaired individuals. The solution integrates sensors, Bluetooth, and cloud computing with a mobile and web dashboard to provide obstacle detection, real-time alerts, and location tracking.
+
+Keywords:
+Smart Shoe, Visually Impaired, IoT, Bluetooth, Firebase, Flutter, ESP32, Dashboard
+
+1. Introduction:
+Navigational challenges for visually impaired individuals are critical. This smart shoe integrates ultrasonic sensors with ESP32 to detect obstacles and wirelessly send alerts to a Flutter mobile app. Alerts are also logged on Firebase and visualized using a Flutter Web dashboard.
+
+2. System Design:
+- ESP32 microcontroller with ultrasonic sensor
+- Bluetooth communication to Flutter app
+- Firebase Realtime Database for data storage
+- Web dashboard for caretakers/family
+
+3. Technologies Used:
+- ESP32, Ultrasonic Sensor, Bluetooth
+- Flutter (Mobile & Web)
+- Firebase (Realtime DB)
+- Arduino IDE
+
+4. Implementation:
+- Arduino code measures distances and sends alerts
+- Flutter app connects via Bluetooth and logs data to Firebase
+- Web dashboard fetches and displays the log in real-time
+
+5. Future Enhancements:
+- GPS integration
+- Fall detection
+- Voice guidance
+- AI-based obstacle classification
+
+6. Conclusion:
+This low-cost, smart footwear aids in safe navigation and real-time tracking, enhancing the mobility and safety of visually impaired users.
+
+7. References:
+- Firebase Docs
+- Flutter SDK
+- IEEE papers on wearable tech for the blind
